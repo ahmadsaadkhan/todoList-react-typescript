@@ -1,13 +1,10 @@
-import React, { FC } from 'react';
+import React from 'react';
 import './App.css';
 
-const App: FC = () => {
+function App() {
   return (
     <div className="App">
       <h1>Todo App With React and TypeScript</h1>
-      <div className="header">
-        <div className="todoList"></div>
-      </div>
     </div>
   );
 }
